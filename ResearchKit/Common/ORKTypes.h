@@ -28,7 +28,9 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-@import Foundation;
+#if TARGET_OS_IOS
+    @import Foundation;
+#endif
 #if TARGET_OS_IOS
     @import UIKit;
 #endif
