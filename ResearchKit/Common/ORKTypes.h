@@ -31,7 +31,7 @@
 @import Foundation;
 
 #if TARGET_OS_IOS
-    @import UIKit;
+    #import <UIKit/UIKit.h>
 #endif
 
 #import <ResearchKit/ORKDefines.h>

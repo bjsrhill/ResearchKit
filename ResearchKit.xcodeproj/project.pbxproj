@@ -727,6 +727,7 @@
 		A659C53F262E0ABE00E920DA /* ORKAccuracyStroopStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A659C53D262E0ABE00E920DA /* ORKAccuracyStroopStepViewController.m */; };
 		A659C546262E0F5600E920DA /* UIColor+String.h in Headers */ = {isa = PBXBuildFile; fileRef = A659C544262E0F5600E920DA /* UIColor+String.h */; };
 		A659C547262E0F5600E920DA /* UIColor+String.m in Sources */ = {isa = PBXBuildFile; fileRef = A659C545262E0F5600E920DA /* UIColor+String.m */; };
+		AB90E6062A84179D009C517D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB90E6052A84179D009C517D /* UIKit.framework */; platformFilter = ios; };
 		AE2CF2C123231C5A00FDD733 /* ORKTagLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2CF2BF23231C5A00FDD733 /* ORKTagLabel.h */; };
 		AE2CF2C223231C5A00FDD733 /* ORKTagLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2CF2C023231C5A00FDD733 /* ORKTagLabel.m */; };
 		AE75433A24E32CCC00E4C7CF /* ORKEarlyTerminationConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = AE75433824E32CCC00E4C7CF /* ORKEarlyTerminationConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1740,6 +1741,7 @@
 		A659C53D262E0ABE00E920DA /* ORKAccuracyStroopStepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKAccuracyStroopStepViewController.m; sourceTree = "<group>"; };
 		A659C544262E0F5600E920DA /* UIColor+String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+String.h"; sourceTree = "<group>"; };
 		A659C545262E0F5600E920DA /* UIColor+String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+String.m"; sourceTree = "<group>"; };
+		AB90E6052A84179D009C517D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE2CF2BF23231C5A00FDD733 /* ORKTagLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKTagLabel.h; sourceTree = "<group>"; };
 		AE2CF2C023231C5A00FDD733 /* ORKTagLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKTagLabel.m; sourceTree = "<group>"; };
 		AE75433824E32CCC00E4C7CF /* ORKEarlyTerminationConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKEarlyTerminationConfiguration.h; sourceTree = "<group>"; };
@@ -2064,6 +2066,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB90E6062A84179D009C517D /* UIKit.framework in Frameworks */,
 				00B1F7852241503900D022FE /* Speech.framework in Frameworks */,
 				B1C7955E1A9FBF04007279BA /* HealthKit.framework in Frameworks */,
 			);
@@ -2501,6 +2504,7 @@
 		3FFF183F1829DB1D00167070 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB90E6052A84179D009C517D /* UIKit.framework */,
 				00B1F7842241503900D022FE /* Speech.framework */,
 				B1C7955D1A9FBF04007279BA /* HealthKit.framework */,
 			);
