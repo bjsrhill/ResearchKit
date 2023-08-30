@@ -785,11 +785,11 @@
 
 /* Request Health Data Step */
 "REQUEST_HEALTH_DATA_STEP_VIEW_TITLE" = "Health Data";
-"REQUEST_HEALTH_DATA_STEP_VIEW_DESCRIPTION" = "The study is requesting access to Health data.";
+"REQUEST_HEALTH_DATA_STEP_VIEW_DESCRIPTION" = "Eye Drop Tracker is requesting access to Health data.";
 
 /* Request Notification Permission Step */
 "REQUEST_NOTIFICATIONS_STEP_VIEW_TITLE" = "Notifications";
-"REQUEST_NOTIFICATIONS_STEP_VIEW_DESCRIPTION" = "The study is requesting to send you notifications.";
+"REQUEST_NOTIFICATIONS_STEP_VIEW_DESCRIPTION" = "Eye Drop Tracker is requesting to send you notifications.";
 
 /* Request Sensor Permission Step */
 "REQUEST_SENSOR_STEP_VIEW_TITLE" = "Sensor Data";
