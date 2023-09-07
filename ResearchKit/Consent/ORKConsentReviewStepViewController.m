@@ -106,9 +106,9 @@ typedef NS_ENUM(NSInteger, ORKConsentReviewPhase) {
     if (step.consentDocument) {
         [indices addObject:@(ORKConsentReviewPhaseReviewDocument)];
     }
-    if (step.signature.requiresName) {
-        [indices addObject:@(ORKConsentReviewPhaseName)];
-    }
+//    if (step.signature.requiresName) {
+//        [indices addObject:@(ORKConsentReviewPhaseName)];
+//    }
     if (step.signature.requiresSignatureImage) {
         [indices addObject:@(ORKConsentReviewPhaseSignature)];
     }
@@ -285,13 +285,13 @@ static NSString *const _SignatureStepIdentifier = @"signatureStep";
     
     UIViewController *viewController = nil;
     switch (phase) {
-        case ORKConsentReviewPhaseName: {
-            // A form step VC with a form step with a first name and a last name
-            ORKFormStepViewController *formViewController = [self makeNameFormViewController];
-            formViewController.cancelButtonItem = self.cancelButtonItem;
-            viewController = formViewController;
-            break;
-        }
+//        case ORKConsentReviewPhaseName: {
+//            // A form step VC with a form step with a first name and a last name
+//            ORKFormStepViewController *formViewController = [self makeNameFormViewController];
+//            formViewController.cancelButtonItem = self.cancelButtonItem;
+//            viewController = formViewController;
+//            break;
+//        }
         case ORKConsentReviewPhaseReviewDocument: {
             // Document review VC
             ORKConsentReviewController *reviewViewController = [self makeDocumentReviewViewController];
