@@ -5628,7 +5628,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = ResearchKit/Info.plist;
 				INFOPLIST_OUTPUT_FORMAT = binary;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = "$(SRCROOT)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5708,7 +5708,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				INFOPLIST_FILE = ResearchKit/Info.plist;
 				INFOPLIST_OUTPUT_FORMAT = binary;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = "$(SRCROOT)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
