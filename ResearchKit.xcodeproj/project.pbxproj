@@ -5653,10 +5653,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/ResearchKit/PrivateHeaders/**",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks/ResearchKit/PrivateHeaders/**",
-				);
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/ResearchKit/PrivateHeaders/**";
 				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/ResearchKit/PrivateHeaders";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
@@ -5736,10 +5733,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 5.0;
-				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/ResearchKit/PrivateHeaders/**",
-					"$(LOCAL_LIBRARY_DIR)/Frameworks/ResearchKit/PrivateHeaders/**",
-				);
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/ResearchKit/PrivateHeaders/**";
 				SYSTEM_HEADER_SEARCH_PATHS = "$(SRCROOT)/ResearchKit/PrivateHeaders";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
