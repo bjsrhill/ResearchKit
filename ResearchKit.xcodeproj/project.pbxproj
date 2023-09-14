@@ -5529,7 +5529,10 @@
 		3FFF186A1829DB1E00167070 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(LOCAL_LIBRARY_DIR)/Frameworks/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/**",
+					"$(SRCROOT)/Frameworks/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
