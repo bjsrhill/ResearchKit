@@ -1040,7 +1040,6 @@
 		03BD9EA2253E62A0008ADBE1 /* ORKBundleAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKBundleAsset.m; sourceTree = "<group>"; };
 		03EDD57E24CA6B1D006245E9 /* ORKNotificationPermissionType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKNotificationPermissionType.h; sourceTree = "<group>"; };
 		03EDD57F24CA6B1D006245E9 /* ORKNotificationPermissionType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKNotificationPermissionType.m; sourceTree = "<group>"; };
-		05F3765923C797930068E166 /* ResearchKit.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResearchKit.xctestplan; sourceTree = "<group>"; };
 		0B59A6BD28C1738D005035B4 /* ORKPickerTestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKPickerTestDelegate.h; sourceTree = "<group>"; };
 		0B59A6BE28C1738D005035B4 /* ORKPickerTestDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKPickerTestDelegate.m; sourceTree = "<group>"; };
 		0BAF9796291088ED00EF138A /* ORKNormalizedReactionTimeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKNormalizedReactionTimeResult.h; sourceTree = "<group>"; };
@@ -2482,7 +2481,6 @@
 		3FFF18341829DB1D00167070 = {
 			isa = PBXGroup;
 			children = (
-				05F3765923C797930068E166 /* ResearchKit.xctestplan */,
 				168EEAAE230B6F9E003FD2FA /* scripts */,
 				B11DF3B21AA109C8009E76D2 /* docs */,
 				86B623AF19520B770074CD3C /* ResearchKit */,
@@ -5517,6 +5515,7 @@
 		050968E6236B71FF006F734C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -5530,6 +5529,7 @@
 		3FFF186A1829DB1E00167070 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Frameworks/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				ONLY_ACTIVE_ARCH = NO;
@@ -5615,7 +5615,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Frameworks/**";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"$(ORK_GCC_PREPROCESSOR_DEFINITIONS)",
@@ -5647,11 +5648,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.researchkit.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ResearchKit;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 5.0;
@@ -5698,6 +5700,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = GLES_SILENCE_DEPRECATION;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -5728,11 +5731,12 @@
 				PRODUCT_NAME = ResearchKit;
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				"SDKROOT[arch=*]" = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				STRINGS_FILE_OUTPUT_ENCODING = binary;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
@@ -5771,7 +5775,7 @@
 				3FFF186A1829DB1E00167070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		86CC8EA31AC09332001CCD89 /* Build configuration list for PBXNativeTarget "ResearchKitTests" */ = {
 			isa = XCConfigurationList;
@@ -5780,7 +5784,7 @@
 				86CC8EA51AC09332001CCD89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		B183A5921A8535D100C76870 /* Build configuration list for PBXNativeTarget "ResearchKit" */ = {
 			isa = XCConfigurationList;
@@ -5789,7 +5793,7 @@
 				B183A5941A8535D100C76870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		B18FF3A71A9FE25700C0C3B0 /* Build configuration list for PBXAggregateTarget "docs" */ = {
 			isa = XCConfigurationList;
@@ -5798,7 +5802,7 @@
 				B18FF3A61A9FE25700C0C3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
