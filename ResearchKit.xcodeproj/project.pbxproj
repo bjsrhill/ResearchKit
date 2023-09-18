@@ -5618,16 +5618,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
 					"$(SRCROOT)/ResearchKit/**",
-					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
-					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
-					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
+					"$(CI_PRIMARY_REPOSITORY_PATH)/ResearchKit/**",
+					"$(CI_PROJECT_FILE_PATH)/ResearchKit/**",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
 					"$(SRCROOT)/ResearchKit/**",
-					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
-					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
-					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
+					"$(CI_PRIMARY_REPOSITORY_PATH)/ResearchKit/**",
+					"$(CI_PROJECT_FILE_PATH)/ResearchKit./**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -5715,16 +5713,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
 					"$(SRCROOT)/ResearchKit/**",
-					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
-					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
-					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
+					"$(CI_PRIMARY_REPOSITORY_PATH)/ResearchKit/**",
+					"$(CI_PROJECT_FILE_PATH)/ResearchKit/**",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
 					"$(SRCROOT)/ResearchKit/**",
-					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
-					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
-					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
+					"$(CI_PRIMARY_REPOSITORY_PATH)/ResearchKit/**",
+					"$(CI_PROJECT_FILE_PATH)/ResearchKit/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = GLES_SILENCE_DEPRECATION;
