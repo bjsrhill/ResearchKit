@@ -5617,10 +5617,12 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/ResearchKit",
+					"$(SRCROOT)/ResearchKit",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
+					"$(SRCROOT)/ResearchKit/**",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -5708,10 +5710,12 @@
 				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/ResearchKit",
+					"$(SRCROOT)/ResearchKit",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
+					"$(SRCROOT)/ResearchKit/**",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
