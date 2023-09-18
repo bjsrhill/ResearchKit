@@ -5616,11 +5616,11 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/Frameworks/ResearchKit",
-					"$(SRCROOT)/ResearchKit",
+					"$(SRCROOT)/Frameworks/ResearchKit/**",
+					"$(SRCROOT)/ResearchKit/**",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
-					CI_PROJECT_FILE_PATH/ResearchKit.framework,
+					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"$(SRCROOT)/Frameworks/ResearchKit/**",
@@ -5713,8 +5713,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)/Frameworks/ResearchKit",
-					"$(SRCROOT)/ResearchKit",
+					"$(SRCROOT)/Frameworks/ResearchKit/**",
+					"$(SRCROOT)/ResearchKit/**",
 					"$CI_DERIVED_DATA_PATH/ResearchKit/**",
 					"$CI_PRIMARY_REPOSITORY_PATH/ResearchKit/**",
 					"CI_PROJECT_FILE_PATH/ResearchKit.framework/**",
