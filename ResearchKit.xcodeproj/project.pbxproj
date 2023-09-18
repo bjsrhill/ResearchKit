@@ -5643,6 +5643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)/ResearchKit",
 				);
 				MARKETING_VERSION = 2.1.1;
 				MODULEMAP_FILE = ResearchKit/ResearchKit.modulemap;
@@ -5732,6 +5733,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)/ResearchKit",
 				);
 				MARKETING_VERSION = 2.1.1;
 				MODULEMAP_FILE = ResearchKit/ResearchKit.modulemap;
