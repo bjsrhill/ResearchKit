@@ -30,7 +30,7 @@
 
 
 #if TARGET_OS_IPHONE
-    @import UIKit;
+    #import <UIKit/UIKit.h>
 #endif
 #import <ResearchKit/ORKDefines.h>
 #import <ResearchKit/ORKTypes.h>

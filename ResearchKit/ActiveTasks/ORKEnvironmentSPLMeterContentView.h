@@ -28,7 +28,7 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "ORKCustomStepView_Internal.h"
 
 NS_ASSUME_NONNULL_BEGIN

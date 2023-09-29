@@ -33,7 +33,7 @@
 #import "ORKHelpers_Internal.h"
 #import "ORKRequestPermissionButton.h"
 
-@import CoreLocation;
+#import <CoreLocation/CoreLocation.h>
 
 static NSString *const Symbol = @"location.circle";
 static const uint32_t IconLightTintColor = 0x50C878;

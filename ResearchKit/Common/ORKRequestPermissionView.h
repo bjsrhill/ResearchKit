@@ -28,8 +28,8 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-@import UIKit;
-@import Foundation;
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @class ORKRequestPermissionButton;
 

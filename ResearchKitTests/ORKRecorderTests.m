@@ -32,7 +32,7 @@
 @import XCTest;
 @import ResearchKit.Private;
 
-@import CoreLocation;
+#import <CoreLocation/CoreLocation.h>
 @import CoreMotion;
 
 

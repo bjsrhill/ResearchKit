@@ -29,7 +29,7 @@
  */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "ORKStepContainerView_Private.h"
 
 NS_ASSUME_NONNULL_BEGIN

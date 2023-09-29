@@ -51,7 +51,7 @@
  */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 @import AVFoundation;
 #import "ORKTypes.h"
 

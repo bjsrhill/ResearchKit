@@ -30,8 +30,8 @@
 
 #import <ResearchKit/ORKTypes.h>
 
-@import Foundation;
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class HKObjectType;
 @class ORKResult;

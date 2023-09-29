@@ -29,7 +29,7 @@
  */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "ORKDefaultFont.h"
 #import "ORKDefines.h"
 

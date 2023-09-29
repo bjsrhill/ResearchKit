@@ -30,7 +30,7 @@
  */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #import <ResearchKit/ORKTypes.h>
 #import <ResearchKit/ORKHelpers_Private.h>
@@ -385,8 +385,8 @@ ORK_INLINE UIColor *ORKOpaqueColorWithReducedAlphaFromBaseColor(UIColor *baseCol
 }
 
 // Localization
-ORK_EXTERN NSBundle *ORKBundle(void) ORK_AVAILABLE_DECL;
-ORK_EXTERN NSBundle *ORKDefaultLocaleBundle(void);
+NSBundle *ORKBundle(void) ORK_AVAILABLE_DECL;
+NSBundle *ORKDefaultLocaleBundle(void);
 
 ORK_INLINE NSString *ORKLocalizedHiddenString(NSString *key) {
     // try to find on hidden table

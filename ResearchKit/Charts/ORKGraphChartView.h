@@ -33,7 +33,7 @@
 */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import <ResearchKit/ORKDefines.h>
 
 

@@ -43,7 +43,7 @@
 #import "ORKHealthAnswerFormat.h"
 #endif
 
-@import HealthKit;
+#import <HealthKit/HealthKit.h>
 @import MapKit;
 @import Contacts;
 

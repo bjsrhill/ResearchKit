@@ -28,7 +28,7 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 extern NSNotificationName const ORK3DModelDisableContinueButtonNotification;
 extern NSNotificationName const ORK3DModelEnableContinueButtonNotification;

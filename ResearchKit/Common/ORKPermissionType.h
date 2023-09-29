@@ -28,7 +28,7 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 #import <ResearchKit/ORKDefines.h>
 
@@ -41,6 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class ORKLocationPermissionType;
 @class ORKRequestPermissionView;
 @class HKSampleType, HKObjectType;
+
 
 typedef NS_OPTIONS(NSUInteger, UNAuthorizationOptions);
 typedef NSString * SRSensor NS_TYPED_ENUM API_AVAILABLE(ios(14.0));

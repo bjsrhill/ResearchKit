@@ -29,7 +29,7 @@
  */
 
 
-@import HealthKit;
+#import <HealthKit/HealthKit.h>
 #import "ORKAnswerFormat_Private.h"
 #import "ORKChoiceAnswerFormatHelper.h"
 

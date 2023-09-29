@@ -32,7 +32,7 @@
 #import "ORKActiveStepTimer.h"
 #import "ORKHelpers_Internal.h"
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #include <mach/mach.h>
 #include <mach/mach_time.h>
 

@@ -29,7 +29,7 @@
  */
 
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "ORKCustomStepView_Internal.h"
 
 
