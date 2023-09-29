@@ -30,6 +30,7 @@
 
 #import <Foundation/Foundation.h>
 #import <ResearchKit/ORKDefines.h>
+#import <UserNotifications/UserNotifications.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -42,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class HKSampleType, HKObjectType;
 
 
-typedef NS_OPTIONS(NSUInteger, UNAuthorizationOptions);
+//typedef NS_OPTIONS(NSUInteger, UNAuthorizationOptions);
 typedef NSString * SRSensor NS_TYPED_ENUM API_AVAILABLE(ios(14.0));
 
 ORK_CLASS_AVAILABLE
