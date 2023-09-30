@@ -5667,6 +5667,7 @@
 		};
 		B183A5931A8535D100C76870 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D000EC22620F27100E5442A /* ResearchKit-Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -5745,6 +5746,7 @@
 		};
 		B183A5941A8535D100C76870 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511A78992950D7030011D85D /* ResearchKit-Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
