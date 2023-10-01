@@ -29,9 +29,7 @@
  */
 
 import Foundation
-#if arch(arm64)
 import SwiftUI
-#endif
 
 @objc
 public class SwiftUIViewFactory: NSObject {
