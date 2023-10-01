@@ -27,8 +27,9 @@
  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-
+#if arch(arm64)
 import SwiftUI
+#endif
 
 @available(iOS 13.0, *)
 struct TextChoiceView: View {
